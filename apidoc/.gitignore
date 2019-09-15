@@ -4,3 +4,8 @@
 
 **/*.iml
 **/target
+target/
+**/.flattened-pom.xml
+**/.settings/
+**/*.project
+**/*.classpath

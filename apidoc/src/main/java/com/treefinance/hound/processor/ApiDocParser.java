@@ -133,7 +133,7 @@ public class ApiDocParser {
 
             if(type instanceof ParameterizedTypeImpl){
                 apiDocParamModel.setClassType(((ParameterizedTypeImpl) type).getRawType());
-                apiDocParamModel.setActualType(((ParameterizedTypeImpl) type).getActualTypeArguments());
+//                apiDocParamModel.setActualType(((ParameterizedTypeImpl) type).getActualTypeArguments());
             }
 
             apiDocParamModel.setIndex(c);
